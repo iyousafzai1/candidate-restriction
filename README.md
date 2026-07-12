@@ -1,6 +1,6 @@
 # Adaptive Candidate Restriction for RF-SMBO
 
-This repository contains the implementation and experiments for "Adaptive candidate restriction for scalable random-forest Bayesian optimization: matched accuracy at a fraction of the acquisition cost".
+This repository contains the implementation and experiments for the paper "Adaptive candidate restriction for scalable random-forest Bayesian optimization: matched accuracy at a fraction of the acquisition cost" submitted to the Egyptian Informatics Journal.
 
 ## Overview
 
@@ -125,10 +125,9 @@ Key findings:
 ## Citation
 
 ```bibtex
-@article{khan2024adaptive,
+@article{adaptive2024,
   title={Adaptive candidate restriction for scalable random-forest {B}ayesian optimisation: 
          matched accuracy at a fraction of the acquisition cost},
-  author={Khan, Irfan and Ayyasamy, Ramesh Kumar and Zhang, Miao},
   journal={Egyptian Informatics Journal},
   year={2024}
 }
@@ -137,13 +136,6 @@ Key findings:
 ## License
 
 This project is licensed under the MIT License - see LICENSE file for details.
-
-## Contact
-
-For questions or issues, please contact:
-- Irfan Khan (irfankhan@qzuie.edu.cn)
-- Ramesh Kumar Ayyasamy (rameshkumar@utar.edu.my)
-- Miao Zhang (zm@qzuie.edu.cn)
 
 ## Reproducibility
 

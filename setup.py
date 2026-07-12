@@ -12,11 +12,9 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 setup(
     name="candidate-restriction",
     version="1.0.0",
-    author="Irfan Khan, Ramesh Kumar Ayyasamy, Miao Zhang",
     description="Adaptive candidate restriction for scalable random-forest Bayesian optimization",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/candidate-restriction",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     classifiers=[
