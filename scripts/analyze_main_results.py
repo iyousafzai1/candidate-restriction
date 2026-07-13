@@ -12,7 +12,7 @@ Produces:
   figures/ml_springer/F3_anchor_delta.pdf   — warm-cold Δregret bar + AQ scatter
 
 Usage:
-    cd /Users/irfankhan/Documents/papers/paper\\ D\\ KBS
+    cd <repository-root>
     PYTHONPATH=src python3 scripts/analyze_main_results.py
 """
 from __future__ import annotations

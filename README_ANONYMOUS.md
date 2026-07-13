@@ -1,6 +1,6 @@
 # Adaptive Candidate Restriction for RF-SMBO - Anonymous Submission
 
-This is the anonymized code repository for the paper "Adaptive candidate restriction for scalable random-forest Bayesian optimization: matched accuracy at a fraction of the acquisition cost" submitted to the Egyptian Informatics Journal.
+This is the anonymized code repository for the paper "Adaptive candidate restriction for scalable random-forest Bayesian optimization: matched accuracy at a fraction of the acquisition cost" submitted to Computer Modeling in Engineering & Sciences (CMES).
 
 ## Quick Start
 
@@ -245,6 +245,6 @@ For more detailed information:
 
 ---
 
-**Submitted to:** Egyptian Informatics Journal  
+**Submitted to:** Computer Modeling in Engineering & Sciences (CMES)  
 **Status:** Anonymous review submission  
 **Code Status:** ✅ Ready for reproducibility assessment
