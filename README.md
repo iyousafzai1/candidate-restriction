@@ -128,8 +128,8 @@ Key findings:
 @article{adaptive2024,
   title={Adaptive candidate restriction for scalable random-forest {B}ayesian optimisation: 
          matched accuracy at a fraction of the acquisition cost},
-  journal={Egyptian Informatics Journal},
-  year={2024}
+  journal={CMES},
+  year={2026}
 }
 ```
 
