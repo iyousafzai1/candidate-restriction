@@ -153,4 +153,4 @@ Results are saved as JSON files in `results/raw/` and can be analyzed using the 
 
 ## Acknowledgments
 
-This work was supported by the Natural Science Foundation of Fujian Province (grant numbers 2023J011807 and 2023J05309).
+Funding acknowledgments are omitted for double-blind review.
