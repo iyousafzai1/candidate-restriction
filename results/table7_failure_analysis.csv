@@ -1,0 +1,15 @@
+ss_id,algo,dim,n_configs,best_method,cand_regret,best_regret,failure_type,diff
+4796,glmnet,3,300,rf_candidate_2k,0.0468,0.0468,Success,0.0000
+5527,svm,6,44790,random,0.0956,0.0430,Random beats cand,0.0526
+5636,rpart,6,43841,rf_candidate_2k,0.3202,0.3202,Success,0.0000
+5859,rpart,6,2878,rf_candidate_2k,0.1761,0.1761,Success,0.0000
+5889,ranger,5,298,rf_smbo,0.0411,0.0263,Small config,0.0148
+5891,svm,6,2584,rf_candidate_2k,0.0166,0.0166,Success,0.0000
+5906,xgboost,15,254,rf_smbo,0.0854,0.0751,Small config,0.0103
+5965,ranger,8,11228,rf_candidate_2k,0.0446,0.0446,Success,0.0000
+5971,xgboost,15,2265,rf_smbo,0.0206,0.0130,Saturated,0.0076
+6766,glmnet,2,39155,rf_candidate_2k,0.0674,0.0674,Success,0.0000
+6767,xgboost,17,44258,rf_candidate_2k,0.0613,0.0613,Success,0.0000
+6794,ranger,8,52448,random,0.0338,0.0272,Random beats cand,0.0066
+7607,ranger,7,647,rf_smbo,0.0391,0.0374,Near-tie,0.0017
+7609,ranger,7,1269,rf_smbo,0.0199,0.0151,Saturated,0.0049

@@ -1,0 +1,15 @@
+search_space_id,algorithm,dimension,n_configs,best_method,rf_candidate_2k_rank,rf_candidate_2k_regret,best_method_regret,failure_type,explanation,should_include_in_paper_main,should_include_in_appendix
+4796,glmnet,3,300,rf_candidate_2k,1,0.046817,0.046817,SUCCESS,rf_candidate_2k is the best method,yes,yes
+5527,svm,6,44790,random,3,0.000000,0.000000,ALL_SATURATED,All methods achieve near-zero regret,no,yes
+5636,rpart,6,43841,rf_candidate_2k,1,0.320163,0.320163,SUCCESS,rf_candidate_2k is the best method,yes,yes
+5859,rpart,6,2878,rf_candidate_2k,1,0.176064,0.176064,SUCCESS,rf_candidate_2k is the best method,yes,yes
+5889,ranger,5,298,rf_smbo,2,0.041081,0.026279,SMALL_CONFIG_SPACE,"Small config space, limited exploration advantage",no,yes
+5891,svm,6,2584,rf_candidate_2k,1,0.016564,0.016564,SUCCESS,rf_candidate_2k is the best method,yes,yes
+5906,xgboost,15,254,rf_smbo,2,0.085427,0.075133,SMALL_CONFIG_SPACE,"Small config space, limited exploration advantage",no,yes
+5965,ranger,8,11228,rf_candidate_2k,1,0.044642,0.044642,SUCCESS,rf_candidate_2k is the best method,yes,yes
+5971,xgboost,15,2265,rf_smbo,2,0.020573,0.013013,ALL_SATURATED,All methods achieve near-zero regret,no,yes
+6766,glmnet,2,39155,rf_candidate_2k,1,0.064491,0.064491,SUCCESS,rf_candidate_2k is the best method,yes,yes
+6767,xgboost,17,44258,rf_candidate_2k,1,0.061320,0.061320,SUCCESS,rf_candidate_2k is the best method,yes,yes
+6794,ranger,8,52448,random,4,0.033839,0.027202,ALL_SATURATED,All methods achieve near-zero regret,no,yes
+7607,ranger,7,647,rf_smbo,2,0.039109,0.037421,RF_SMBO_DOMINATES,Full-candidate RF-SMBO slightly better,no,yes
+7609,ranger,7,1269,rf_smbo,2,0.019945,0.015084,ALL_SATURATED,All methods achieve near-zero regret,no,yes

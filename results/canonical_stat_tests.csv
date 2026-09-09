@@ -1,0 +1,11 @@
+basis,n,comparison,subset,mean_gain,gain_pct,wins,losses,wilcoxon_p,holm_p
+all_common_seeds,77,cand_vs_rf_smbo,all,+0.0097,+11.1,37,35,0.3574,0.3574
+all_common_seeds,77,cand_vs_random,all,+0.0283,+26.7,55,17,4.926e-06,9.852e-06
+all_common_seeds,77,cand_vs_tpe,all,+0.0312,+28.7,57,16,5.414e-07,1.624e-06
+all_common_seeds,55,cand_vs_rf_smbo,pool_gt_2000,+0.0140,+13.0,30,22,0.1554,
+all_common_seeds,22,cand_vs_rf_smbo,pool_le_2000,-0.0010,-2.8,7,13,0.4115,
+balanced_full20,77,cand_vs_rf_smbo,all,+0.0097,+11.1,37,35,0.3574,0.3574
+balanced_full20,77,cand_vs_random,all,+0.0283,+26.7,55,17,4.926e-06,9.852e-06
+balanced_full20,77,cand_vs_tpe,all,+0.0312,+28.7,57,16,5.414e-07,1.624e-06
+balanced_full20,55,cand_vs_rf_smbo,pool_gt_2000,+0.0140,+13.0,30,22,0.1554,
+balanced_full20,22,cand_vs_rf_smbo,pool_le_2000,-0.0010,-2.8,7,13,0.4115,

@@ -1,0 +1,7 @@
+method_vs_rf_smbo,taskset,n,gain_pct,wins,losses,p_two_sided,p_one_sided
+adaptive_k,test,77,+11.3,29,22,0.1049,0.0524
+adaptive_k,added,80,-9.8,18,15,0.3042,0.8479
+adaptive_k,combined,157,+3.1,47,37,0.5064,0.2532
+rf_candidate_2k,test,77,+11.1,37,35,0.3574,0.1787
+rf_candidate_2k,added,80,-5.2,33,34,0.2689,0.8656
+rf_candidate_2k,combined,157,+4.8,70,69,0.9213,0.5394

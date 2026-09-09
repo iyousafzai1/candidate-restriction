@@ -1,0 +1,4 @@
+budget,comparison,n_spaces,mean_gain,win_rate,bootstrap_CI_low,bootstrap_CI_high,significant
+25,rf_candidate_2k vs random,14,0.032665,0.857,-0.062931,-0.007364,no
+25,rf_candidate_2k vs rf_smbo,14,0.008766,0.571,-0.020285,0.000974,no
+25,rf_candidate_2k vs tpe,14,0.035863,0.857,-0.065386,-0.010428,no

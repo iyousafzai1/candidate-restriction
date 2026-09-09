@@ -1,0 +1,13 @@
+budget,method,unique_task_wins,win_pct
+5,random,65,91.5%
+5,tpe,0,0.0%
+5,rf_smbo,4,5.6%
+5,rf_candidate_2k,2,2.8%
+10,random,27,38.0%
+10,tpe,3,4.2%
+10,rf_smbo,20,28.2%
+10,rf_candidate_2k,21,29.6%
+25,random,19,26.8%
+25,tpe,0,0.0%
+25,rf_smbo,28,39.4%
+25,rf_candidate_2k,24,33.8%

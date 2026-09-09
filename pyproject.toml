@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "candidate-restriction"
+version = "1.0.0"
+description = "Adaptive candidate restriction for scalable random-forest Bayesian optimisation"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Irfan Khan" },
+    { name = "Saqib Alam" },
+    { name = "Ramesh Kumar Ayyasamy" },
+    { name = "Miao Zhang" },
+]
+keywords = [
+    "bayesian-optimisation", "hyperparameter-optimisation", "automl",
+    "random-forest", "acquisition-function", "smbo",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy>=1.21",
+    "scipy>=1.7",
+    "scikit-learn>=1.0",
+]
+
+[project.optional-dependencies]
+experiments = ["pandas>=1.3", "xgboost>=1.5", "openml>=0.12"]
+dev = ["pytest>=7.0"]
+
+[project.urls]
+Homepage = "https://github.com/iyousafzai1/candidate-restriction"
+Repository = "https://github.com/iyousafzai1/candidate-restriction"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "src"]
+addopts = "--doctest-modules --doctest-glob='*.md'"

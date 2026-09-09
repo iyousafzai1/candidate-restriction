@@ -1,0 +1,21 @@
+subgroup,budget,method,mean_regret,n
+High-dim (≥15D),25,random,0.063578,275
+High-dim (≥15D),25,tpe,0.063578,275
+High-dim (≥15D),25,rf_smbo,0.054250,275
+High-dim (≥15D),25,rf_candidate_2k,0.048711,271
+Med-dim (8–14D),25,random,0.045374,220
+Med-dim (8–14D),25,tpe,0.045374,220
+Med-dim (8–14D),25,rf_smbo,0.041010,219
+Med-dim (8–14D),25,rf_candidate_2k,0.040988,211
+Low-dim (<8D),25,random,0.136900,940
+Low-dim (<8D),25,tpe,0.141734,940
+Low-dim (<8D),25,rf_smbo,0.112043,932
+Low-dim (<8D),25,rf_candidate_2k,0.098087,920
+Large config (≥10K),25,random,0.134250,680
+Large config (≥10K),25,tpe,0.138809,680
+Large config (≥10K),25,rf_smbo,0.122437,671
+Large config (≥10K),25,rf_candidate_2k,0.110355,661
+Small config (<10K),25,random,0.085911,755
+Small config (<10K),25,tpe,0.087822,755
+Small config (<10K),25,rf_smbo,0.061152,755
+Small config (<10K),25,rf_candidate_2k,0.052826,741

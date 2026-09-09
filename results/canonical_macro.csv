@@ -1,0 +1,7 @@
+budget,random,tpe,rf_smbo,rf_candidate_2k,cand_vs_smbo_pct,cand_vs_random_pct,cand_vs_tpe_pct,basis
+5,0.2122,0.2122,0.2121,0.2121,+0.0,+0.1,+0.1,all_common_seeds
+5,0.2122,0.2122,0.2121,0.2121,+0.0,+0.1,+0.1,balanced_full20
+10,0.1592,0.1601,0.1469,0.1437,+2.2,+9.8,+10.2,all_common_seeds
+10,0.1592,0.1601,0.1469,0.1437,+2.2,+9.8,+10.2,balanced_full20
+25,0.1081,0.1112,0.0860,0.0775,+9.9,+28.3,+30.3,all_common_seeds
+25,0.1081,0.1112,0.0860,0.0775,+9.9,+28.3,+30.3,balanced_full20
